@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-academy"
+version = "0.1.0"
+description = ""
+authors = ["jrmata <136661373+jrmata@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "python_academy"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pymongo = "^4.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
